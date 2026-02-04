@@ -18,7 +18,7 @@ def implied_volatility(price, S, K, T, r, option_type, sigma_low=.00001, sigma_h
     def findIV(sigma):
         return black_scholes_price(S, K, T, r, sigma, option_type=option_type) - price
 
-    # Find sigma such that objective(sigma)=0 using a safe bracketed method
+    # Find volatilty by using a root-finding algo 
     try:
         return brentq(findIV, sigma_low, sigma_high, maxiter=500)       #brentq is a root-finding algorithm that combines bisection, secant, and inverse quadratic interpolation methodds
     except ValueError:
