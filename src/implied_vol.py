@@ -5,7 +5,6 @@ from src.black_scholes import black_scholes_price       # Maybe from .black_scho
 
 #############################################################################################################################
 #Here we solve for implied volatility (sigma) given a market option price by reverse engineering the Black–Scholes formula.
-#Returns np.nan if inputs are invalid or the implied vol cannot be found within bounds.
 #############################################################################################################################ß
 
 
