@@ -19,7 +19,7 @@ def black_scholes_price(S, K, T, r, sigma, option_type):
     if sigma < 0:
         raise ValueError("sigma (Volatility) must be non-negative.")
 
-    # Incase of options being pulled at maturity
+    # Incase of options being pulled are at maturity
     if T == 0:
         if option_type == "call":
             return max(S - K, 0.0)        #Options are not executed if out of the money
