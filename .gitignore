@@ -208,3 +208,10 @@ __marimo__/
 
 #API Keys 
 polygonAPIkey.py
+
+#Data files
+data/raw/
+data/processed/
+data/pca/pc_scores.csv
+figures/*.png
+figures/*.gif
