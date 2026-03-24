@@ -70,8 +70,8 @@ Implied-Volatility-Surface-PCA/
 
 ### Requirements
 ```bash
-conda create -n quant_env python=3.11
-conda activate quant_env
+conda create -n env python=3.11
+conda activate env
 conda install numpy pandas matplotlib scipy scikit-learn plotly yfinance
 conda install -c conda-forge pandas-market-calendars
 pip install polygon-api-client
