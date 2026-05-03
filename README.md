@@ -1,6 +1,8 @@
 # Implied Volatility Surface PCA
 
-An empirical analysis of implied volatility surface dynamics using Principal Component Analysis (PCA) on SPX options, inspired by Cont & da Fonseca (2002).
+An empirical analysis of implied volatility surface dynamics using Principal Component Analysis (PCA) on SPY options, inspired by Cont & da Fonseca (2002).
+
+Update: This project uses SPY option chains, which is technically incorrect for Black-Scholes IV inversion. SPY options are American-style on a dividend-paying ETF, so the BS European, no-dividend assumptions don't hold exactly — introducing a small bias in computed IVs. SPX is the correct choice: European exercise, cash-settled, no dividend adjustment needed. This will be addressed in a future update.
 
 ## Overview
 
