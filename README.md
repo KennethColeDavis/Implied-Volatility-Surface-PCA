@@ -1,6 +1,6 @@
 # Implied Volatility Surface PCA
 
-An empirical analysis of implied volatility surface dynamics using Principal Component Analysis (PCA) on SPY options, inspired by Cont & da Fonseca (2002).
+An empirical analysis of implied volatility surface dynamics using Principal Component Analysis (PCA) on SPX options, inspired by Cont & da Fonseca (2002).
 
 ## Overview
 
